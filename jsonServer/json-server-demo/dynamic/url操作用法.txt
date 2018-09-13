@@ -1,0 +1,16 @@
+b. 其他接口
+说明：下面就不一一截图了。
+
+请求接口	请求方式	请求说明
+http://localhost:3003/list/2	GET	查询id为2的数据
+http://localhost:3003/list?tel=15223810923	GET	查询tel为15223810923的数据
+http://localhost:3003/list?id=2&tel=15223810923	GET	查询id位2并且tel为15223810923的数据
+http://localhost:3003/list?_page=1&_limit=2	GET	查询第一页的两条数据
+http://localhost:3003/list 数据是{"title": "111","desc": "222","tag": "常是价六","views": 4178}	POST	添加一条数据
+http://localhost:3003/list/6	DELECT	删除id为6的数据
+ps:其他更多的就不在详述了
+
+作者：datura_lj
+链接：https://www.jianshu.com/p/95b634c82165
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。

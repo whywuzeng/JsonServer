@@ -1,0 +1,23 @@
+{
+  "name": "wzdemo",
+  "version": "1.0.0",
+  "description": "this is demo json description",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd static && nodemon server.js",
+    "dserver": "cd dynamic && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "^c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  }
+}
